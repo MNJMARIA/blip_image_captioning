@@ -1,18 +1,18 @@
 # Image Captioning with BLIP
 
-![Demo](test_blip_image_captioning.png)  <!-- замініть на реальне зображення -->
+![Demo](test_blip_image_captioning.png)
 
-Цей проєкт використовує модель [BLIP (Bootstrapping Language-Image Pre-training)](https://huggingface.co/Salesforce/blip-image-captioning-base) від Salesforce для автоматичного створення текстових описів до завантажених зображень. Інтерфейс побудований за допомогою бібліотеки Gradio.
+This project uses Salesforce's [BLIP (Bootstrapping Language-Image Pre-training)](https://huggingface.co/Salesforce/blip-image-captioning-base) model to automatically generate text descriptions for uploaded images. The interface is built using the Gradio library.
 
-## Особливості
-- Генерація природномовного підпису до будь-якого зображення.
-- Простий веб-інтерфейс (перетягніть файл або виберіть через провідник).
-- Оптимізовані параметри генерації для уникнення повторень (`repetition_penalty`, `no_repeat_ngram_size`).
-- Автоматична конвертація зображень у формат RGB (підтримка PNG з прозорістю).
+## Features
+- Generate natural language captions for any image.
+- Simple web interface (drag and drop files or browse).
+- Optimized generation parameters to avoid repetitions (`repetition_penalty`, `no_repeat_ngram_size`).
+- Automatic conversion of images to RGB format (support for PNG with transparency).
 
-## Встановлення
+## Installation
 
-1. Клонуйте репозиторій:
-   ```bash
-   git clone https://github.com/MNJMARIA/blip-image-captioning.git
-   cd blip-image-captioning
+1. Clone the repository:
+```bash
+git clone https://github.com/MNJMARIA/blip-image-captioning.git
+cd blip-image-captioning
