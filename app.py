@@ -33,5 +33,9 @@ interface = gr.Interface(
     description="Upload an image to generate a caption"
 )
 
+# if __name__ == "__main__":
+#     interface.launch(server_name="127.0.0.1", server_port=7070)
+
+# деплою на Hugging Face Spaces, передача параметра `server_name="0.0.0.0"`
 if __name__ == "__main__":
-    interface.launch(server_name="127.0.0.1", server_port=7070)
+    interface.launch(server_name="0.0.0.0")
