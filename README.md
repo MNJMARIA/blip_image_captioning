@@ -1,6 +1,6 @@
 # Image Captioning with BLIP
 
-![Demo](screenshot.png)  <!-- замініть на реальне зображення -->
+![Demo](test_blip_image_captioning.png)  <!-- замініть на реальне зображення -->
 
 Цей проєкт використовує модель [BLIP (Bootstrapping Language-Image Pre-training)](https://huggingface.co/Salesforce/blip-image-captioning-base) від Salesforce для автоматичного створення текстових описів до завантажених зображень. Інтерфейс побудований за допомогою бібліотеки Gradio.
 
